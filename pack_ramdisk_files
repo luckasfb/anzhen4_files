@@ -1,0 +1,11 @@
+#!/bin/sh
+if [ $# -eq 1 ]
+then
+	cd $1
+	find . -name ".gitkeep" | xargs rm -rf
+	find ./* | cpio -o -H newc | gzip -9 > ../$1.cpio.gz
+	find . -type d -empty |xargs -i touch '{}'/.gitkeep
+	exit
+fi
+
+find -maxdepth 1 -type d -name "*_ramdisk" | xargs -n1 $0
