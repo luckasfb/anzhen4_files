@@ -1,0 +1,12 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+persist.nomodem_ui=1
+ro.arch=x86
+persist.service.apklogfs.enable=1
+persist.fwlog.enable=1
+ro.com.google.clientidbase=android-google
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
