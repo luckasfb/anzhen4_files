@@ -1,0 +1,26 @@
+SOCWATCH1_3.ko:
+vtsspp.ko:
+atomisp-css2401a0_legacy_v21.ko: videobuf-vmalloc.ko videobuf-core.ko
+ov2722.ko:
+atomisp-css2401a0_v21.ko: videobuf-vmalloc.ko videobuf-core.ko
+atmel_mxt_ts.ko:
+videobuf-core.ko:
+atomisp-css2400b0_v21.ko: videobuf-vmalloc.ko videobuf-core.ko
+imx1x5.ko:
+pax.ko:
+sep3_10.ko:
+mac80211.ko:
+vxd392.ko:
+videobuf2-core.ko:
+uvcvideo.ko: videobuf2-core.ko videobuf2-vmalloc.ko videobuf2-memops.ko
+8723bs.ko:
+gc_class.ko:
+gt9xx_ts.ko:
+ov.ko:
+videobuf2-vmalloc.ko: videobuf2-memops.ko
+hdmi_audio.ko:
+bcm_bt_lpm.ko:
+videobuf-vmalloc.ko: videobuf-core.ko
+lm3642.ko:
+videobuf2-memops.ko:
+lm3554.ko:
